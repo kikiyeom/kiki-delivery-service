@@ -290,4 +290,18 @@ canvas.addEventListener("mousemove", (e) => {
   }
 });
 
+// 터치 이벤트
+canvas.addEventListener("touchstart", (e) => {
+  isPressed = true;
+  calculateMousePosition(e.touches[0]);
+});
+canvas.addEventListener("touchend", () => {
+  isPressed = false;
+});
+canvas.addEventListener("touchmove", (e) => {
+  if (isPressed) {
+    calculateMousePosition(e.touches[0]);
+  }
+});
+
 draw();
