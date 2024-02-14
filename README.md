@@ -1,15 +1,6 @@
 # kiki-delivery-service
-1. 패키지 설치
-```
-npm i
-```
 
-2. 개발용 서버 구동
-```
-npm start
-```
+[마녀배달부 키키 배포 링크](https://aquamarine-florentine-ff97b4.netlify.app)
 
-3. 빌드
-```
-npm run build
-```
+<img width="538" alt="image" src="https://github.com/kikiyeom/kiki-delivery-service/assets/75597374/b2657c94-83e8-49bf-b51d-3eb7aa07377e">
+
